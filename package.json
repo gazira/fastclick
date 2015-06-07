@@ -45,5 +45,17 @@
   "implements": [
     "CommonJS/Modules/1.0"
   ],
-  "homepage": "https://github.com/ftlabs/fastclick"
+  "homepage": "https://github.com/ftlabs/fastclick",
+  "spm": {
+    "main": "lib/fastclick.js",
+    "dependencies": {
+    },
+    "devDependencies": {
+    },
+    "tests": "",
+    "ignore": [
+      "components"
+    ],
+    "buildArgs": ""
+  }
 }
